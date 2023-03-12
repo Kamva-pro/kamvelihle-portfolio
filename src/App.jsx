@@ -6,7 +6,7 @@ import {About, Experience, Feedbacks, Contact, Hero, Navbar,
 
  const  App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="relative z-0 bg-primary">
       <div className="bg-hero bg-cover bg-no-repeat
        bg-center">
@@ -21,7 +21,7 @@ import {About, Experience, Feedbacks, Contact, Hero, Navbar,
         <StarsCanvas/>
       </div>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
