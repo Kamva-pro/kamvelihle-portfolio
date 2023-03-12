@@ -14,7 +14,6 @@ import {About, Experience, Feedbacks, Contact, Hero, Navbar,
         <Hero/>
       </div>
       <About/>      
-      {/* <Tech/> */}
       <Works/>
       <div className="relative z-0">
         <Contact/>
