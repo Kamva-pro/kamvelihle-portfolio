@@ -206,20 +206,20 @@ import {
       image: tripsmobile,
       link: "http://Kamva-pro.github.io/Trip-tips",
     },
-    {
-      name: 'PhoneXchange',
-      description:
-        "Web-based platform that allows users to purchase refurbished phones at affordable prices",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
+    // {
+    //   name: 'PhoneXchange',
+    //   description:
+    //     "Web-based platform that allows users to purchase refurbished phones at affordable prices",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
 
-      ],
-      image: iphones,
-      link: "https://Kamva-pro.github.io/phonexchange",
-    },
+    //   ],
+    //   image: iphones,
+    //   link: "https://Kamva-pro.github.io/phonexchange",
+    // },
     {
       name: "Hotrooms",
       description:
