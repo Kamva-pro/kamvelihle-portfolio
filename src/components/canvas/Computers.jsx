@@ -31,7 +31,7 @@ const Computers = ({isMobile, isTab, isBigTab, isSmall}) => {
 
       <primitive
       object={computer.scene} 
-      scale={isBigTab? 0.4 : isTab ? 0.4 : isMobile ? 0.2 : 0.7}
+      scale={isBigTab? 0.4 : isTab ? 0.4 : isMobile ? 0.15 : 0.7}
       position={isSmall ? [0, -4, 0] : isBigTab ? [0, 1, 0] : isMobile ? [0,-3,0] : isTab ? [0, -2.5, 0] :  [0,-3, 0]}
       rotation={[-0.01, -0.2, -0.1]} />
 
