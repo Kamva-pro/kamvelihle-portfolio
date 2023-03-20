@@ -35,8 +35,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -206,27 +206,27 @@ import {
       image: tripsmobile,
       link: "http://Kamva-pro.github.io/Trip-tips",
     },
-    // {
-    //   name: 'PhoneXchange',
-    //   description:
-    //     "Web-based platform that allows users to purchase refurbished phones at affordable prices",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-
-    //   ],
-    //   image: iphones,
-    //   link: "https://Kamva-pro.github.io/phonexchange",
-    // },
     {
-      name: "Hotrooms",
+      name: 'PhoneXchange',
       description:
-        "Web application that enables users to book a hotel room.",
+        "Web-based platform that allows users to purchase refurbished phones at affordable prices",
       tags: [
         {
-          name: "php",
+          name: "react",
+          color: "blue-text-gradient",
+        },
+
+      ],
+      image: iphones,
+      link: "http://Kamva-pro.github.io/phonexchange",
+    },
+    {
+      name: "Hotel Booking Website",
+      description:
+        "Web application that enables users to place and manage hotel bookings",
+      tags: [
+        {
+          name: "php #javascript #bootstrap",
           color: "blue-text-gradient",
         },
       ],
@@ -234,12 +234,12 @@ import {
       link: "https://hotrooms.netlify.app/",
     },
     {
-      name: "His & hers",
+      name: "His & hers Clothing",
       description:
         "An online clothing store that enables users to search and buy any item of their choice",
       tags: [
         {
-          name: "HTML/CSS",
+          name: "HTML/CSS #bootstrap #javascript",
           color: "blue-text-gradient",
         },
 

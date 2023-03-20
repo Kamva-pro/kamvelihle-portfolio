@@ -46,7 +46,7 @@ const About = () => {
         I'm a skilled frontend developer with over 3 years of programming experience. 
         My expertise include HTML/CSS, Javascript, React and Python. 
         To test my skills I've worked on several projects which include a Hotel booking website,
-        Online Clothing store and also my personal portfolio to name a few. 
+        Online Clothing store as well as a travel blog. Feel free to contact me for any gigs or collabs. 
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service,index) => (
