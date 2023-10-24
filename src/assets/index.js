@@ -25,6 +25,10 @@ import tripsmobile from './tripsmobile.png';
 import hotels from './hotels.png';
 import clothing from './clothing.png';
 import iphones from './iphones.png';
+import phones from './phones.png';
+import quick from './quick-connect.png';
+import pmgraves from './pmgrave.png';
+import mgijima from './mgijima.png';
 
 import flutter from './tech/flutter.png';
 import bootstrap from './tech/bootstrap.png';
@@ -73,4 +77,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  phones,
+  quick,
+  pmgraves,
+  mgijima
 };

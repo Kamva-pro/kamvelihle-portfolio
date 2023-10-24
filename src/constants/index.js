@@ -27,6 +27,10 @@ import {
     tripguide,
     bootstrap,
     threejs,
+    pmgraves,
+    quick,
+    phones,
+    mgijima
   } from "../assets";
   
   export const navLinks = [
@@ -206,37 +210,37 @@ import {
       image: tripsmobile,
       link: "http://Kamva-pro.github.io/Trip-tips",
     },
-    // {
-    //   name: 'PhoneXchange',
-    //   description:
-    //     "Web-based platform that allows users to purchase refurbished phones at affordable prices",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-
-    //   ],
-    //   image: iphones,
-    //   link: "http://Kamva-pro.github.io/phonexchange",
-    // },
+ 
     {
-      name: "Hotel Booking Website",
+      name: "PM Grave Closures",
       description:
-        "Web application that enables users to place and manage hotel bookings",
+      "Soweto based Grave Closure business that specializes in the maintenance of graves..",
       tags: [
         {
-          name: "php #javascript #bootstrap",
-          color: "blue-text-gradient",
-        },
+          name: "html #css #javascript",
+          color: "blue-text-gradient"
+        }
       ],
-      image: hotels,
-      link: "https://hotrooms.netlify.app/",
+      image: pmgraves,
+      link: "https://pmgraveclosures.netlify.app/"
     },
+    // {
+    //   name: "Hotel Booking Website",
+    //   description:
+    //     "Web application that enables users to place and manage hotel bookings",
+    //   tags: [
+    //     {
+    //       name: "php #javascript #bootstrap",
+    //       color: "blue-text-gradient",
+    //     },
+    //   ],
+    //   image: hotels,
+    //   link: "https://hotrooms.netlify.app/",
+    // },
     {
-      name: "His & hers Clothing",
+      name: "PhoneXchange",
       description:
-        "An online clothing store that enables users to search and buy any item of their choice",
+        "An online phone shop that sells affordable top quality mobile phones",
       tags: [
         {
           name: "HTML/CSS #bootstrap #javascript",
@@ -244,9 +248,34 @@ import {
         },
 
       ],
-      image: clothing,
-      link: "https://hisandhers.netlify.app/",
+      image: phones,
+      link: "https://phonexchange.company.site",
     },
+    {
+      name: "Quick-Connect App",
+      description: "A simple solution to networking - creating digital business cards",
+      tags: [
+        {
+          name: "html #css #javascript #firebase #express",
+          color: "blue-text-gradient"
+        }
+      ],
+      image: quick,
+      link: "https://quick-connect.netlify.app",
+    },
+    {
+      name: "Mgijima",
+      description: "A local NPO which provides assistance for schools and organisations in need.",
+      tags: [
+        {
+          name: "html #css #firebase #javascript",
+          color: "blue-text-gradient"
+        }
+      ],
+      image: mgijima,
+      link: "https://mgijima.netlify.app"
+    }
+
   ];
   
   export { services, technologies, experiences, testimonials, projects };
