@@ -264,15 +264,18 @@ import {
       image: mgijima,
       link: "https://mgijima.netlify.app"
     },
-      {
-          name: "iPart",
-          description: "Part is an e-commerce platform specializing in Apple products. I developed a responsive website using WordPress as the foundation, intended to showcase a variety of Apple accessories and parts.",
-          tags: [{
-              name: "#wordpress #woocommerce #php",
-                 color: "blue-text-gradient"}],
-          image: ipart,
-          link: "https://ipart.co.za"
-      }
+  {
+      name: "iPart",
+      description: "Part is an e-commerce platform specializing in Apple products. I developed a responsive website using WordPress as the foundation, intended to showcase a variety of Apple accessories and parts.",
+      tags: [
+          {
+            name: "wordpress #woocommerce #php",
+            color: "blue-text-gradient"
+          }
+          ],
+      image: ipart,
+      link: "https://ipart.co.za"
+  }
 
   ];
   
