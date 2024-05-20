@@ -30,7 +30,8 @@ import {
     pmgraves,
     quick,
     phones,
-    mgijima
+    mgijima,
+    ipart
   } from "../assets";
   
   export const navLinks = [
@@ -107,6 +108,7 @@ import {
       name: 'python',
       icon: git,
     },
+    
     {
       name: "figma",
       icon: figma,
@@ -224,19 +226,6 @@ import {
       image: pmgraves,
       link: "https://pmgraveclosures.netlify.app/"
     },
-    // {
-    //   name: "Hotel Booking Website",
-    //   description:
-    //     "Web application that enables users to place and manage hotel bookings",
-    //   tags: [
-    //     {
-    //       name: "php #javascript #bootstrap",
-    //       color: "blue-text-gradient",
-    //     },
-    //   ],
-    //   image: hotels,
-    //   link: "https://hotrooms.netlify.app/",
-    // },
     {
       name: "PhoneXchange",
       description:
@@ -275,6 +264,15 @@ import {
       image: mgijima,
       link: "https://mgijima.netlify.app"
     }
+      {
+          name: "iPart",
+          description: "Part is an e-commerce platform specializing in Apple products. I developed a responsive website using WordPress as the foundation, intended to showcase a variety of Apple accessories and parts.",
+          tags: [{
+              name: "#wordpress #woocommerce #php",
+                 color: "blue-text-gradient"}],
+          image: ipart,
+          link: "https://ipart.co.za"
+      }
 
   ];
   
