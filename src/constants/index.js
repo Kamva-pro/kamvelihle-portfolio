@@ -31,7 +31,8 @@ import {
     quick,
     phones,
     mgijima,
-    ipart
+    ipart,
+    icepop
   } from "../assets";
   
   export const navLinks = [
@@ -275,7 +276,20 @@ import {
           ],
       image: ipart,
       link: "https://ipart.co.za"
-  }
+  },
+
+  {
+    name: "icePopCo",
+    description: "icepopco is an e-commerce website which sells icepops. I built the website using wordpress and woocommerce. ",
+    tags: [
+        {
+          name: "wordpress #woocommerce #php",
+          color: "blue-text-gradient"
+        }
+        ],
+    image: icepop,
+    link: "https://icepopco.co.za"
+}
 
   ];
   
