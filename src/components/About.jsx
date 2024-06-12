@@ -45,8 +45,7 @@ const About = () => {
       >
         I'm a skilled web and mobile developer with 4 years of programming experience. 
         My expertise include Javascript, Python and Java. 
-        But my number one skill is the abiity to learn any skill
-        needed to get the job done. 
+        But my number one skill is the abiity to learn on the job
         Contact me below if I could be of service to you.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
