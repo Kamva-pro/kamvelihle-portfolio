@@ -199,20 +199,20 @@ import {
   ];
   
   const projects = [
-    {
-      name: 'Trip Tips',
-      description:
-        "Travel blog that provides users with the latest travel ideas and also travel guides. ",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
+    // {
+    //   name: 'Trip Tips',
+    //   description:
+    //     "Travel blog that provides users with the latest travel ideas and also travel guides. ",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
 
-      ],
-      image: tripsmobile,
-      link: "http://Kamva-pro.github.io/Trip-tips",
-    },
+    //   ],
+    //   image: tripsmobile,
+    //   link: "http://Kamva-pro.github.io/Trip-tips",
+    // },
  
     {
       name: "PM Grave Closures",
@@ -267,7 +267,7 @@ import {
     },
   {
       name: "iPart",
-      description: "Part is an e-commerce platform specializing in Apple products. I developed a responsive website using WordPress as the foundation, intended to showcase a variety of Apple accessories and parts.",
+      description: "Part is an e-commerce platform specializing in Apple products.",
       tags: [
           {
             name: "wordpress #woocommerce #php",
@@ -280,7 +280,7 @@ import {
 
   {
     name: "icePopCo",
-    description: "icepopco is an e-commerce website which sells icepops. I built the website using wordpress and woocommerce. ",
+    description: "icepopco is an e-commerce website which sells icepops. ",
     tags: [
         {
           name: "wordpress #woocommerce #php",

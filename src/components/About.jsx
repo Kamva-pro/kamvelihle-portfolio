@@ -43,11 +43,11 @@ const About = () => {
       className="mt-4 text-secondary text-[17px]
       max-w-3xl leading-[30px]"
       >
-        I'm a skilled frontend developer with over 4 years of programming experience. 
-        My expertise include HTML/CSS, Javascript, and React. 
-        To test my skills I've worked on several projects which include a mobile phone shop, 
-        a web application which changes the way we network and a few local business websites.
-        Feel free to contact me for any gigs or collabs. 
+        I'm a skilled web and mobile developer with 4 years of programming experience. 
+        My expertise include Javascript, Python and Java. 
+        But my number one skill is the abiity to learn any skill
+        needed to get the job done. 
+        Contact me below if I could be of service to you.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service,index) => (
