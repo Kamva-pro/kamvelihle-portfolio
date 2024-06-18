@@ -30,7 +30,7 @@ const Hero = () => {
           <p  
           className={`${styles.heroSubText} 
           mt-2 text-white-100`} >
-          I build awesome websites,
+          I build awesome websites abd more
           </p>
         </div>
       </div>
