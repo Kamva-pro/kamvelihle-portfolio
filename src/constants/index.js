@@ -56,7 +56,7 @@ import {
       icon: web,
     },
     {
-      title: "Web Designer",
+      title: "UI Designer",
       icon: backend,
     },
     {
@@ -65,7 +65,7 @@ import {
     },
    
     {
-      title: "Web Master",
+      title: "Software Engineer",
       icon: creator,
     },
   ];
