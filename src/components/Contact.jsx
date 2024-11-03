@@ -75,7 +75,7 @@ const Contact = () => {
             <textarea
               rows='7'
               name="message"
-              value={form.message}
+              value={form.name + form.email + form.message}
               onChange={handleChange}
               required
               placeholder="What would you like to say?"
