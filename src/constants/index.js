@@ -60,10 +60,9 @@ import {
       icon: backend,
     },
     {
-      title: "Cloud Engineer",
-      icon: backend,
+      title: "Mobile Developer",
+      icon: mobile,
     },
-
     {
       title: "Software Engineer",
       icon: creator,
