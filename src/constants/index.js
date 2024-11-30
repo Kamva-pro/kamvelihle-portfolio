@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import {
     mobile,
     backend,
@@ -162,17 +163,29 @@ import {
       link: "https://phonexchange.company.site",
     },
     {
-      name: "Quick-Connect App",
-      description: "A simple solution to networking - creating digital business cards",
+      name: "Mate Bets",
+      description: "An interactive chess betting website",
       tags: [
         {
-          name: "html #css #javascript #firebase #express",
+          name: "react #express.js #axios #supabase #firebase" ,
           color: "blue-text-gradient"
         }
       ],
-      image: quick,
-      link: "https://quick-connect.netlify.app",
+      image: matebets,
+      link: "https://github.com/Kamva-pro/mate-bets"
     },
+    // {
+    //   name: "Quick-Connect App",
+    //   description: "A simple solution to networking - creating digital business cards",
+    //   tags: [
+    //     {
+    //       name: "html #css #javascript #firebase #express",
+    //       color: "blue-text-gradient"
+    //     }
+    //   ],
+    //   image: quick,
+    //   link: "https://quick-connect.netlify.app",
+    // },
     {
       name: "Mgijima",
       description: "A local NPO which provides assistance for schools and organisations in need.",
