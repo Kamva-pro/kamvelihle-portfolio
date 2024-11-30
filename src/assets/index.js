@@ -43,6 +43,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ipart from "./ipart.png";
 import icepop from './icepopco.jpeg';
+import matebets from './matebets.png';
 
 export {
   icepop,
@@ -84,5 +85,6 @@ export {
   quick,
   pmgraves,
   mgijima,
-  ipart
+  ipart,
+  matebets
 };

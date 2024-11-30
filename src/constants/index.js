@@ -32,6 +32,7 @@ import {
     phones,
     mgijima,
     ipart,
+    matebets,
     icepop
   } from "../assets";
   
