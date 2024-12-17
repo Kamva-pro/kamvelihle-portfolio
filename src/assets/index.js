@@ -45,6 +45,10 @@ import ipart from "./ipart.png";
 import icepop from './icepopco.jpeg';
 import matebets from './matebets.png';
 
+import kasi_1 from './kasi-1.jpg';
+import kasi_2 from './kasi-2.jpg';
+import kasi_3 from './kasi-3.jpg';
+
 export {
   icepop,
   logo,
@@ -86,5 +90,8 @@ export {
   pmgraves,
   mgijima,
   ipart,
-  matebets
+  matebets,
+  kasi_1,
+  kasi_2,
+  kasi_3
 };

@@ -42,17 +42,17 @@ const Hero = () => {
           <div className='w-[fit-content] h-[64px] rounded-3xl
           border-4 border-secondary flex justify-start
           items-start p-2'>
-            
-            <motion.dev 
-            animate={{y:[0,24,0]}}
-            transition={{
-              duration:1.5,
-              repeat:Infinity,
-              repeatType:'loop'
-            }}
-            >
-              <h1>Click to Scroll</h1>
-            </motion.dev>
+                          
+                          <motion.dev 
+                          animate={{y:[0,24,0]}}
+                          transition={{
+                            duration:1.5,
+                            repeat:Infinity,
+                            repeatType:'loop'
+                          }}
+                          >
+                            <h1>Click to Scroll</h1>
+                          </motion.dev>
             
           </div>
         </a>
