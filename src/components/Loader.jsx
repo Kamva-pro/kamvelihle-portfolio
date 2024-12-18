@@ -1,5 +1,6 @@
 import React from 'react';
 import { Html, useProgress } from '@react-three/drei';
+import "./loader.css";
 
 const Loader = () => {
   const { progress } = useProgress();

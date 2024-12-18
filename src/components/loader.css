@@ -1,4 +1,4 @@
-/* .loader-container {
+.loader-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,9 +59,9 @@
     margin-top: 10px;
     transition: all 0.3s ease;
   }
-   */
+  
 
-   .loader {
+   /* .loader {
     width: fit-content;
     font-weight: bold;
     font-family: monospace;
@@ -81,4 +81,4 @@
   
   @keyframes l24{
     100%{background-position: left}
-  }
+  } */
