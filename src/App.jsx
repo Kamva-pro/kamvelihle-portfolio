@@ -2,7 +2,9 @@ import {BrowserRouter} from 'react-router-dom';
 import React from 'react'
 
 import {About, Contact, Hero, Navbar, 
-  Works, StarsCanvas} from './components';
+  Works, StarsCanvas,} from './components';
+
+
 
  const  App = () => {
  
