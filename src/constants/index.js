@@ -151,20 +151,20 @@ import {
       image: pmgraves,
       link: "https://pmgraveclosures.netlify.app/"
     },
-    // {
-    //   name: "PhoneXchange",
-    //   description:
-    //     "An online phone shop that sells affordable top quality mobile phones",
-    //   tags: [
-    //     {
-    //       name: "HTML/CSS #bootstrap #javascript",
-    //       color: "blue-text-gradient",
-    //     },
+    {
+      name: "PhoneXchange",
+      description:
+        "An online phone shop that sells affordable top quality mobile phones",
+      tags: [
+        {
+          name: "HTML/CSS #bootstrap #javascript",
+          color: "blue-text-gradient",
+        },
 
-    //   ],
-    //   image: phones,
-    //   link: "https://phonexchange.company.site",
-    // },
+      ],
+      image: phones,
+      link: "https://phonexchange.company.site",
+    },
     {
       name: "Mate Bets",
       description: "An interactive chess betting website",
@@ -213,31 +213,31 @@ import {
     //   image: mgijima,
     //   link: "https://mgijima.netlify.app"
     // },
-  // {
-  //     name: "iPart",
-  //     description: "Part is an e-commerce platform specializing in Apple products.",
-  //     tags: [
-  //         {
-  //           name: "wordpress #woocommerce #php",
-  //           color: "blue-text-gradient"
-  //         }
-  //         ],
-  //     image: ipart,
-  //     link: "https://ipart.co.za"
-  // },
+  {
+      name: "iPart",
+      description: "Part is an e-commerce platform specializing in Apple products.",
+      tags: [
+          {
+            name: "wordpress #woocommerce #php",
+            color: "blue-text-gradient"
+          }
+          ],
+      image: ipart,
+      link: "https://ipart.co.za"
+  },
 
-//   {
-//     name: "icePopCo",
-//     description: "icepopco is an e-commerce website which sells icepops. ",
-//     tags: [
-//         {
-//           name: "wordpress #woocommerce #php",
-//           color: "blue-text-gradient"
-//         }
-//         ],
-//     image: icepop,
-//     link: "https://icepopco.co.za"
-// }
+  {
+    name: "icePopCo",
+    description: "icepopco is an e-commerce website which sells icepops. ",
+    tags: [
+        {
+          name: "wordpress #woocommerce #php",
+          color: "blue-text-gradient"
+        }
+        ],
+    image: icepop,
+    link: "https://icepopco.co.za"
+}
 
   ];
   
