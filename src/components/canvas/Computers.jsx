@@ -90,7 +90,7 @@ const ComputersCanvas = () => {
           minPolarAngle={Math.PI / 2}
         />
         <Computers
-          // isMobile={isMobile}
+          isMobile={isMobile}
           isTab={isTab}
           isBigTab={isBigTab}
           isSmall={isSmall}
