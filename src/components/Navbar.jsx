@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className={`${styles.paddingX} w-full flex 
     items-center
     py-5 fixed top-0 z-20 bg-primary`}>
-      <div className="w-full flex justify-between 
+      <div className="w-full flex justify-around 
       items-center max-w-7xl mx-auto">
          <Link 
          to='/' 
@@ -35,7 +35,7 @@ const Navbar = () => {
          </Link>
 
          <ul className="list-none 
-         hidden sm:flex flex-row gap-10">
+         hidden sm:flex flex-row gap-20">
           {navLinks.map((link) => (
             <li key={link.id} 
             className={`${active === link.title ?
@@ -47,8 +47,10 @@ const Navbar = () => {
             </li>
           ))}
 
-          d
+          
          </ul>
+         <div className="bg-tertiary shadow-card py-4 px-8 cursor-pointer text-white font-bold shadow-md shadow-tertiary rounded-xl">
+          Download CV</div>
 
          <div className="sm:hidden flex flex-1 
          justify-end items-center"
