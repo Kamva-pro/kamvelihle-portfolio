@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 
 import {styles} from '../styles';
 import {SectionWrapper} from '../hoc';
-import {ComputersCanvas} from './canvas';
+import {ComputersCanvas, AvatarCanvas} from './canvas';
 
 
 const Hero = () => {
@@ -30,7 +30,7 @@ const Hero = () => {
           <p  
           className={`${styles.heroSubText} 
           mt-2 text-white-100`} >
-          I'm a web and mobile developer
+          I'm a Full-Stack Developer
           </p>
         </div>
       </div>
