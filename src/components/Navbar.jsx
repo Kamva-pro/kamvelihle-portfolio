@@ -46,6 +46,8 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title} </a>
             </li>
           ))}
+
+          d
          </ul>
 
          <div className="sm:hidden flex flex-1 
