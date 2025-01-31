@@ -35,7 +35,7 @@ const Hero = () => {
         </div>
       </div>
       <ComputersCanvas/>
-      <div 
+      {/* <div 
       className='absolute xs:bottom-10 bottom-20 w-full
       flex flex-col-reverse justify-center items-center'>
         <a href="#about">
@@ -43,7 +43,7 @@ const Hero = () => {
           border-4 border-secondary flex justify-start
           items-start p-2'>
                           
-                          {/* <motion.dev 
+                          <motion.dev 
                           animate={{y:[0,24,0]}}
                           transition={{
                             duration:1.5,
@@ -52,11 +52,11 @@ const Hero = () => {
                           }}
                           >
                             <h1>Click to Scroll</h1>
-                          </motion.dev> */}
+                          </motion.dev>
             
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   )
 }
