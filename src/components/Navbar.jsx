@@ -2,11 +2,21 @@ import React, {useEffect, useState} from 'react';
 import {Link} from 'react-router-dom';
 import {styles} from '../styles';
 import {navLinks} from '../constants';
-import {logo, menu, close} from '../assets';
+import {logo, menu, close, cv} from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
+
+  const downloadCV = () => {
+    const link = document.createElement('a');
+    link.href = cv;
+    link.download = 'kamvelihle_fatman_cv.pdf'; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+  
   return (
     <nav className={`${styles.paddingX} w-full flex 
     items-center
@@ -49,7 +59,7 @@ const Navbar = () => {
 
           
          </ul>
-         <div className="bg-tertiary shadow-card py-4 px-8 cursor-pointer text-white font-bold shadow-md shadow-tertiary rounded-xl">
+         <div onClick={() => downloadCV()} className="bg-tertiary shadow-card py-4 px-8 cursor-pointer text-white font-bold shadow-md shadow-tertiary rounded-xl">
           Download CV</div>
 
          <div className="sm:hidden flex flex-1 

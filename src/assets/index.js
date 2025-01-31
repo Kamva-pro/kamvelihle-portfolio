@@ -49,6 +49,8 @@ import kasi_1 from './kasi-1.jpg';
 import kasi_2 from './kasi-2.jpg';
 import kasi_3 from './kasi-3.jpg';
 
+import cv from './kamvelihle-fatman_cv.pdf';
+
 export {
   icepop,
   logo,
@@ -93,5 +95,6 @@ export {
   matebets,
   kasi_1,
   kasi_2,
-  kasi_3
+  kasi_3,
+  cv
 };

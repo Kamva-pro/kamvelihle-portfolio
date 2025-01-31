@@ -37,7 +37,8 @@ import {
     icepop,
     kasi_1,
     kasi_2,
-    kasi_3
+    kasi_3, 
+    cv
   } from "../assets";
   
   export const navLinks = [
