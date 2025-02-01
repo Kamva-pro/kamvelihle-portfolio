@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav className={`${styles.paddingX} w-full flex 
 items-center py-5 fixed top-0 z-20 bg-primary`}>
   <div className="w-full flex justify-around 
-  items-center max-w-7xl mx-auto">
+  items-center max-w-7xl mx-auto gap-36">
     <Link 
       to='/' 
       className="flex items-center gap-2"
@@ -40,7 +40,7 @@ items-center py-5 fixed top-0 z-20 bg-primary`}>
       </p>
     </Link>
 
-    <ul className="list-none hidden sm:flex flex-row gap-20">
+    <ul className="list-none hidden sm:flex flex-row gap-16">
       {navLinks.map((link) => (
         <li key={link.id} 
           className={`${active === link.title ?
