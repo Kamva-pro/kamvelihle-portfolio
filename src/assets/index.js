@@ -50,8 +50,10 @@ import kasi_2 from './kasi-2.jpg';
 import kasi_3 from './kasi-3.jpg';
 
 import cv from './kamvelihle-fatman_cv.pdf';
+import linkedin from './linkedin.png';
 
 export {
+  linkedin,
   icepop,
   logo,
   backend,

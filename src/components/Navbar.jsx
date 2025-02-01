@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {Link} from 'react-router-dom';
 import {styles} from '../styles';
 import {navLinks} from '../constants';
-import {logo, menu, close, cv, github} from '../assets';
+import {logo, menu, close, cv, github, linkedin} from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -54,17 +54,17 @@ items-center py-5 fixed top-0 z-20 bg-primary`}>
     </ul>
 
     <div className="sm:flex hidden gap-4">
-    <img onClick={() => {window.open('https://linkedin.com/in/kamvelihle-fatman', '_blank')}} className='cursor-pointer object-contain rounded-2xl' src={github} alt="Linked In" 
-      width={30}
+    {/* <img onClick={() => {window.open('https://linkedin.com/in/kamvelihle-fatman', '_blank')}} className='cursor-pointer object-contain rounded-2xl' src={linkedin} alt="Linked In" 
+      width={24}
       height={10}
-      />
+      /> */}
       <img onClick={() => {window.open('https://github.com/kamva-pro', '_blank')}} className='cursor-pointer object-contain rounded-2xl' src={github} alt="Github" 
       width={30}
       height={10}
       />
     <div 
       onClick={downloadCV} 
-      className="bg-tertiary shadow-card py-4 px-6 cursor-pointer text-white font-bold shadow-md shadow-tertiary rounded-xl sm:flex hidden"
+      className="bg-tertiary shadow-card py-4 px-8 cursor-pointer text-white font-bold shadow-lg shadow-dnd rounded-xl sm:flex hidden"
     >
       Download CV
     </div>
