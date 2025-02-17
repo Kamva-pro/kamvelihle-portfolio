@@ -124,21 +124,6 @@ import {
 
   
   const projects = [
-    // {
-    //   name: 'Trip Tips',
-    //   description:
-    //     "Travel blog that provides users with the latest travel ideas and also travel guides. ",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-
-    //   ],
-    //   image: tripsmobile,
-    //   link: "http://Kamva-pro.github.io/Trip-tips",
-    // },
- 
     {
       name: "PM Grave Closures",
       description:
@@ -151,6 +136,20 @@ import {
       ],
       image: pmgraves,
       link: "https://pmgraveclosures.netlify.app/"
+    },
+    {
+      name: 'Trip Tips',
+      description:
+        "Simple travel website with cool places to visit. ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+
+      ],
+      image: tripsmobile,
+      link: "http://Kamva-pro.github.io/Trip-tips",
     },
     {
       name: "PhoneXchange",
