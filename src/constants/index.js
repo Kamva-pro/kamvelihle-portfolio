@@ -140,10 +140,10 @@ import {
     {
       name: 'Trip Tips',
       description:
-        "Simple travel website with cool places to visit. ",
+        "Travel blog with ideas and insights on cool places to visit all around the world. ",
       tags: [
         {
-          name: "react",
+          name: "react #bootstrap",
           color: "blue-text-gradient",
         },
 
@@ -151,20 +151,7 @@ import {
       image: tripsmobile,
       link: "http://Kamva-pro.github.io/Trip-tips",
     },
-    {
-      name: "PhoneXchange",
-      description:
-        "An online phone shop that sells affordable top quality mobile phones",
-      tags: [
-        {
-          name: "HTML/CSS #bootstrap #javascript",
-          color: "blue-text-gradient",
-        },
-
-      ],
-      image: phones,
-      link: "https://phonexchange.company.site",
-    },
+  
     /*{
       name: "Mate Bets",
       description: "An interactive chess betting website",
@@ -176,7 +163,7 @@ import {
       ],
       image: matebets,
       link: "https://github.com/Kamva-pro/mate-bets"
-    },*/
+    }, */
     {
       name: "Kasi IN",
       description: "A kasi food delivery service app",
@@ -213,7 +200,7 @@ import {
     //   image: mgijima,
     //   link: "https://mgijima.netlify.app"
     // },
-  {
+ /* {
       name: "iPart",
       description: "Part is an e-commerce platform specializing in Apple products.",
       tags: [
@@ -224,11 +211,11 @@ import {
           ],
       image: ipart,
       link: "https://ipart.co.za"
-  },
+  },*/
 
   {
     name: "icePopCo",
-    description: "icepopco is an e-commerce website which sells icepops. ",
+    description: "An e-commerce store which sells custom made icepops to customers. ",
     tags: [
         {
           name: "wordpress #woocommerce #php",
