@@ -16,7 +16,6 @@ export {
   Hero,
   Navbar,
   About,
-  Tech,
   Works,
   Contact,
   EarthCanvas, 
