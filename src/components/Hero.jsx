@@ -1,7 +1,5 @@
 import {motion} from 'framer-motion';
 import { React, useState, useEffect } from 'react';
-
-
 import {styles} from '../styles';
 import {SectionWrapper} from '../hoc';
 import {ComputersCanvas, AvatarCanvas} from './canvas';

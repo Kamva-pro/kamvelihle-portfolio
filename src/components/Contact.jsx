@@ -21,10 +21,10 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.sendForm(
-      'service_ji1qxrg', // EmailJS service ID
-      'template_vz8e5uq', // EmailJS template ID
+      'service_ji1qxrg', 
+      'template_vz8e5uq',
       formRef.current,
-      'zEUqudfhVW4qWHlh0' // EmailJS user ID
+      'zEUqudfhVW4qWHlh0' 
     ).then((result) => {
       console.log(result.text);
       setLoading(false);
