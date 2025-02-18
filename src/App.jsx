@@ -7,7 +7,6 @@ import {About, Contact, Hero, Navbar,
 
 
  const  App = () => {
- 
 
   return (
     <BrowserRouter>

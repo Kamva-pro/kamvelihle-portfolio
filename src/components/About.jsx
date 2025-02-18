@@ -43,11 +43,8 @@ const About = () => {
       className="mt-4 text-secondary text-[17px]
       max-w-3xl leading-[30px]"
       >
-        I'm a skilled web and mobile developer, with a prime interest in creating visually appealing
-        software solutions.
-        I have honed my skills in both the front and backend, establishing myself as a Full-stack developer. 
-        <br/>
-        Feel free to contact me below for any collaborations. 
+        I'm a skilled web and mobile developer, with a prime in frontend technologies.
+        I have honed my skills in both the front and backend, establishing myself as a Full-stack developer.
 
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
