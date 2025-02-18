@@ -1,0 +1,10 @@
+import{r as a,j as s,a as e,C as y}from"./index-a29d39f3.js";import{s as c}from"./styles-bea25d13.js";import{m as E}from"./SectionWrapper-594c7405.js";const C=()=>{const[p,o]=a.useState(!1),[g,m]=a.useState(!1),[w,d]=a.useState(!1),[b,h]=a.useState(!1);return a.useEffect(()=>{const n=window.matchMedia("(max-width:576px)");o(n.matches);const u=t=>o(t.matches);n.addEventListener("change",u);const i=window.matchMedia("(max-width: 768px)");m(i.matches);const x=t=>m(t.matches);i.addEventListener("change",x);const r=window.matchMedia("max-width: 991px");d(r.matches);const f=t=>d(t.matches);r.addEventListener("change",f);const l=window.matchMedia("(max-height: 500px)");h(l.matches);const v=t=>h(t.matches);return l.addEventListener("change",v),()=>{n.removeEventListener("change",u),l.removeEventListener("change",v),i.removeEventListener("change",x),r.removeEventListener("change",f)}},[]),s("section",{className:"relative w-full h-screen mx-auto",children:[s("div",{className:`${c.paddingX} 
+      absolute inset-0 top-[120px] max-w-7xl mx-auto flex
+      flex-row items-start gap-5`,children:[s("div",{className:`flex flex-col 
+        justify-center items-center mt-5`,children:[e("div",{className:`w-5 h-5 rounded-full 
+          bg-[#515eff]`}),e("div",{className:`w-1 sm-h-80 h-40 
+          violet-gradient`})]}),s("div",{children:[s("h1",{className:`${c.heroHeadText} text-white`,children:["Hi, I'm",e("span",{className:"text-[#515eff]",children:" Kamvelihle"})]}),e("p",{className:`${c.heroSubText} 
+          mt-2 text-white-100`,children:"I'm a Full-Stack Developer"})]})]}),e(y,{}),(p||g||b||w)&&e("div",{className:`absolute xs:bottom-10 bottom-20 w-full
+    flex flex-col-reverse justify-center items-center`,children:e("a",{href:"#about",children:e("div",{className:`w-[fit-content] h-[64px] rounded-3xl
+      border-4 border-secondary flex justify-start
+      items-start p-2`,children:e(E.div,{animate:{y:[0,24,0]},transition:{duration:1.5,repeat:1/0,repeatType:"loop"},children:e("h1",{children:"Click to Scroll"})})})})})]})};export{C as default};
