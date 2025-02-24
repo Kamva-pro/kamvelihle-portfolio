@@ -58,7 +58,7 @@ import {
   
   const services = [
     {
-      title: "Frontend Developer",
+      title: "Front-End Developer",
       icon: web,
     },
     {
@@ -70,7 +70,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Software Engineer",
+      title: "Graphic Designer",
       icon: creator,
     },
   ];
@@ -188,18 +188,18 @@ import {
     //   image: quick,
     //   link: "https://quick-connect.netlify.app",
     // },
-    // {
-    //   name: "Mgijima",
-    //   description: "A local NPO which provides assistance for schools and organisations in need.",
-    //   tags: [
-    //     {
-    //       name: "html #css #firebase #javascript",
-    //       color: "blue-text-gradient"
-    //     }
-    //   ],
-    //   image: mgijima,
-    //   link: "https://mgijima.netlify.app"
-    // },
+    {
+      name: "Mgijima",
+      description: "A local NPO which provides assistance for schools and organisations in need.",
+      tags: [
+        {
+          name: "html #css #firebase #javascript",
+          color: "blue-text-gradient"
+        }
+      ],
+      image: mgijima,
+      link: "https://mgijima.netlify.app"
+    },
  /* {
       name: "iPart",
       description: "Part is an e-commerce platform specializing in Apple products.",
