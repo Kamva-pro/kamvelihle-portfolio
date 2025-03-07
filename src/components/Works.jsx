@@ -38,8 +38,8 @@ const ProjectCard = ({index, name, description,
             className="background-white w-10 h-10 rounded-full
             flex justify-center items-center cursor-pointer">
               <img 
-              src={web}
-              alt="web"
+              src={github}
+              alt="github"
               className="w-1/2 h-1/2"
               object-contain/>
               
