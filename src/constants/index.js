@@ -152,7 +152,7 @@ import {
       link: "http://Kamva-pro.github.io/Trip-tips",
     },
   
-    /*{
+    {
       name: "Mate Bets",
       description: "An interactive chess betting website",
       tags: [
@@ -163,7 +163,7 @@ import {
       ],
       image: matebets,
       link: "https://github.com/Kamva-pro/mate-bets"
-    }, */
+    },
     {
       name: "Kasi IN",
       description: "A kasi food delivery service app",
