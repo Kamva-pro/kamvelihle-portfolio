@@ -1,4 +1,4 @@
-import{r as a,b as h,j as G}from"./index-9f9990c5.js";import{R as I,_ as y,P as W,u as S,D as d,M as $,V,a as z,C as q}from"./react-three-fiber.esm-397fb7db.js";import{P as N}from"./Preload-f50bb141.js";const k=()=>parseInt(I.replace(/\D+/g,"")),U=k(),P=U>=154?"opaque_fragment":"output_fragment";class B extends W{constructor(r){super(r),this.onBeforeCompile=(e,n)=>{const{isWebGL2:o}=n.capabilities;e.fragmentShader=e.fragmentShader.replace(`#include <${P}>`,`
+import{r as a,b as h,j as G}from"./index-985d80ba.js";import{R as I,_ as y,P as W,u as S,D as d,M as $,V,a as z,C as q}from"./react-three-fiber.esm-be0a243a.js";import{P as N}from"./Preload-64128c11.js";const k=()=>parseInt(I.replace(/\D+/g,"")),U=k(),P=U>=154?"opaque_fragment":"output_fragment";class B extends W{constructor(r){super(r),this.onBeforeCompile=(e,n)=>{const{isWebGL2:o}=n.capabilities;e.fragmentShader=e.fragmentShader.replace(`#include <${P}>`,`
         ${o?`#include <${P}>`:`#extension GL_OES_standard_derivatives : enable
 #include <${P}>`}
       vec2 cxy = 2.0 * gl_PointCoord - 1.0;
