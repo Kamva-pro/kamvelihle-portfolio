@@ -76,156 +76,97 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-
-    {
-      name:"Bootstrap",
-      icon: bootstrap,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "flutter",
-      icon: flutter,
-    },
-    {
-      name: 'python',
-      icon: git,
-    },
-    
-    {
-      name: "figma",
-      icon: figma,
-    },
+    { name: "HTML 5",     icon: html },
+    { name: "CSS 3",      icon: css },
+    { name: "JavaScript", icon: javascript },
+    { name: "React JS",   icon: reactjs },
+    { name: "Tailwind CSS", icon: tailwind },
+    { name: "Bootstrap",  icon: bootstrap },
+    { name: "Three JS",   icon: threejs },
+    { name: "flutter",    icon: flutter },
+    { name: "python",     icon: git },
+    { name: "figma",      icon: figma },
   ];
-  
-
   
   const projects = [
     {
+      id: "pm-grave-closures",
       name: "PM Grave Closures",
-      description:
-      "Soweto based Grave Closure business that specializes in the maintenance of graves..",
-      tags: [
-        {
-          name: "html #css #javascript",
-          color: "blue-text-gradient"
-        }
-      ],
+      description: "Soweto based Grave Closure business that specializes in the maintenance of graves.",
+      longDescription: "PM Grave Closures is a professional web presence built for a Soweto-based burial services business. The site was designed to convey trust and professionalism while being fully responsive for mobile visitors. It includes a clear service listing, contact section, and gallery of past work.",
+      goal: "Build a credible, professional website for a local business with no digital presence — enabling them to reach new customers online.",
+      techStack: ["HTML", "CSS", "JavaScript"],
+      tags: [{ name: "html #css #javascript", color: "blue-text-gradient" }],
       image: pmgraves,
-      link: "https://pmgraveclosures.netlify.app/"
+      link: "https://pmgraveclosures.netlify.app/",
+      year: "2023",
+      category: "Web",
     },
     {
-      name: 'Trip Tips',
-      description:
-        "Travel blog with ideas and insights on cool places to visit all around the world. ",
-      tags: [
-        {
-          name: "react #bootstrap",
-          color: "blue-text-gradient",
-        },
-
-      ],
+      id: "trip-tips",
+      name: "Trip Tips",
+      description: "Travel blog with ideas and insights on cool places to visit all around the world.",
+      longDescription: "Trip Tips is a fully responsive travel blog built with React. Users can browse destination cards and travel advice curated from around the world. The app features a clean Bootstrap-powered layout and component-driven architecture for easy content scalability.",
+      goal: "Create an engaging travel blog platform that demonstrates component-based UI design and responsive web development skills.",
+      techStack: ["React", "Bootstrap", "CSS"],
+      tags: [{ name: "react #bootstrap", color: "blue-text-gradient" }],
       image: tripsmobile,
       link: "http://Kamva-pro.github.io/Trip-tips",
+      year: "2023",
+      category: "Web",
     },
-  
     {
+      id: "mate-bets",
       name: "Mate Bets",
-      description: "An interactive chess betting website",
-      tags: [
-        {
-          name: "react #express.js #axios #supabase #firebase" ,
-          color: "blue-text-gradient"
-        }
-      ],
+      description: "An interactive chess betting website.",
+      longDescription: "Mate Bets is a full-stack chess betting platform. Users can create accounts, participate in chess betting rooms, and track their betting history in real-time. Built with React on the frontend and Express.js backed by Supabase — including real-time updates via Firebase and secure API communication via Axios.",
+      goal: "Build a full-stack real-time betting platform demonstrating skills in authentication, database management, WebSocket events, and complex React state management.",
+      techStack: ["React", "Express.js", "Axios", "Supabase", "Firebase"],
+      tags: [{ name: "react #express.js #axios #supabase #firebase", color: "blue-text-gradient" }],
       image: matebets,
-      link: "https://github.com/Kamva-pro/mate-bets"
+      link: "https://github.com/Kamva-pro/mate-bets",
+      year: "2024",
+      category: "Full-Stack",
     },
     {
+      id: "kasi-in",
       name: "Kasi IN",
-      description: "A kasi food delivery service app",
-      tags: [
-        {
-          name: "react-native #expo #node.js #postgreSQL #supabase #firebase",
-          color: "blue-text-gradient"
-        }
-      ],
+      description: "A kasi food delivery service app.",
+      longDescription: "Kasi IN is a mobile food delivery app built for township communities. It enables users to browse local restaurants, place orders, and track delivery status in real time. The app was built with React Native and Expo for cross-platform support, backed by a Node.js REST API, PostgreSQL database, and Supabase for authentication.",
+      goal: "Create an accessible food delivery experience tailored for township communities — leveraging mobile-first development with real-time order tracking.",
+      techStack: ["React Native", "Expo", "Node.js", "PostgreSQL", "Supabase", "Firebase"],
+      tags: [{ name: "react-native #expo #node.js #postgreSQL #supabase #firebase", color: "blue-text-gradient" }],
       image: kasi_3,
-      link: "https://github.com/Kamva-pro/Kasi-IN.git"
+      link: "https://github.com/Kamva-pro/Kasi-IN.git",
+      year: "2024",
+      category: "Mobile",
     },
-    // {
-    //   name: "Quick-Connect App",
-    //   description: "A simple solution to networking - creating digital business cards",
-    //   tags: [
-    //     {
-    //       name: "html #css #javascript #firebase #express",
-    //       color: "blue-text-gradient"
-    //     }
-    //   ],
-    //   image: quick,
-    //   link: "https://quick-connect.netlify.app",
-    // },
     {
+      id: "mgijima",
       name: "Mgijima",
       description: "A local NPO which provides assistance for schools and organisations in need.",
-      tags: [
-        {
-          name: "html #css #firebase #javascript",
-          color: "blue-text-gradient"
-        }
-      ],
+      longDescription: "Mgijima is a non-profit organisation website built to help raise awareness and collect support for schools and community organisations in need across South Africa. Firebase powers the backend for donation tracking and content management, while a clean, accessible HTML/CSS/JS frontend ensures compatibility across all devices.",
+      goal: "Give a local NPO a credible digital presence to increase community visibility, donor engagement, and organisational reach.",
+      techStack: ["HTML", "CSS", "Firebase", "JavaScript"],
+      tags: [{ name: "html #css #firebase #javascript", color: "blue-text-gradient" }],
       image: mgijima,
-      link: "https://mgijima.netlify.app"
+      link: "https://mgijima.netlify.app",
+      year: "2023",
+      category: "Web",
     },
- /* {
-      name: "iPart",
-      description: "Part is an e-commerce platform specializing in Apple products.",
-      tags: [
-          {
-            name: "wordpress #woocommerce #php",
-            color: "blue-text-gradient"
-          }
-          ],
-      image: ipart,
-      link: "https://ipart.co.za"
-  },*/
-
-  {
-    name: "icePopCo",
-    description: "An e-commerce store which sells custom made icepops to customers. ",
-    tags: [
-        {
-          name: "wordpress #woocommerce #php",
-          color: "blue-text-gradient"
-        }
-        ],
-    image: icepop,
-    link: "https://icepopco.co.za"
-}
-
+    {
+      id: "educonnect",
+      name: "EduConnect",
+      description: "An educational platform connecting students with tutors and providing comprehensive learning resources online.",
+      longDescription: "EduConnect is a full-stack educational platform designed to bridge the gap between students and qualified tutors in South Africa. Students can browse tutor profiles, book sessions, and access curated learning materials. The backend REST API is built with Node.js and Express, using MongoDB for data persistence.",
+      goal: "Make quality tutoring accessible and affordable by connecting students to tutors through a seamless, intuitive digital platform.",
+      techStack: ["React", "Node.js", "Express", "MongoDB"],
+      tags: [{ name: "react #nodejs #mongodb #express", color: "blue-text-gradient" }],
+      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      link: "https://educonnect-demo.com",
+      year: "2024",
+      category: "Full-Stack",
+    },
   ];
   
   export { services, technologies, projects };

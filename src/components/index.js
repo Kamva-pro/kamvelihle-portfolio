@@ -1,15 +1,10 @@
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas, AvatarCanvas } from './canvas';
-
 import { lazy } from 'react';
 
-const Hero = lazy(() => import("./Hero"))
-
-const Navbar = lazy(() => import("./Navbar"))
-
-const About = lazy(() => import("./About"))
-
-const Works = lazy(() => import("./Works"))
-
+const Hero    = lazy(() => import("./Hero"))
+const Navbar  = lazy(() => import("./Navbar"))
+const About   = lazy(() => import("./About"))
+const Works   = lazy(() => import("./Works"))
 const Contact = lazy(() => import("./Contact"))
 
 export {
@@ -18,9 +13,9 @@ export {
   About,
   Works,
   Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
-  StarsCanvas, 
+  EarthCanvas,
+  BallCanvas,
+  ComputersCanvas,
+  StarsCanvas,
   AvatarCanvas
 }
