@@ -1,6 +1,0 @@
-import{j as s,F as o,a as e,s as c}from"./index-49eb1c55.js";import{_ as d}from"./tilt-72b19599.js";import{s as r}from"./styles-bea25d13.js";import{S as m,m as n,t as p,f as i}from"./SectionWrapper-425e85a7.js";const x=({index:a,title:t,icon:l})=>e(d,{className:"xs:w-[250px] w-full",children:e(n.div,{variants:i("right","spring",.5*a,.75),className:`w-full green-pink-gradient 
-      p-[1px] rounded-[20px] shadow-card`,children:s("div",{options:{max:45,scale:1,speed:450},className:`bg-tertiary rounded-[20px] 
-        py-5 px-12 min-h-[280px] flex
-        justify-evenly items-center flex-col`,children:[e("img",{src:l,alt:t,className:"w-16 h-16 object-contain"}),e("h3",{className:`text-white text-[20px] 
-          font-bold text-center`,children:t})]})})}),h=()=>s(o,{children:[s(n.div,{variants:p(),children:[e("p",{className:r.sectionSubText,children:"Introduction "}),e("h2",{className:r.sectionHeadText,children:"Overview"})]}),e(n.p,{variants:i("","",.1,1),className:`mt-4 text-secondary text-[17px]
-      max-w-3xl leading-[30px]`,children:"I'm a skilled web and mobile developer, with a prime in frontend technologies. I have honed my skills in both the front and backend, establishing myself as a Full-stack developer."}),e("div",{className:"mt-20 flex flex-wrap gap-10",children:c.map((a,t)=>e(x,{index:t,...a},a.title))})]}),g=m(h,"about");export{g as default};
