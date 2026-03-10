@@ -100,7 +100,7 @@ const Hero = () => {
   }, []);
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior:'smooth' });
+    bottomRef.current?.scrollIntoView({ behavior:'smooth', block:'nearest' });
   }, [messages, typing]);
 
   const send = () => {
@@ -120,17 +120,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto flex flex-col items-center justify-center px-4 pt-20 pb-4 overflow-hidden">
 
-      {/* Page title pill */}
-      <motion.div
-        initial={{ opacity:0, y:-20 }}
-        animate={{ opacity:1, y:0 }}
-        transition={{ duration:0.6 }}
-        className="mb-3 px-4 py-1.5 rounded-full text-xs font-semibold tracking-widest uppercase"
-        style={{ background:'rgba(145,94,255,0.15)', color:'#c4b5fd', border:'1px solid rgba(145,94,255,0.3)' }}
-      >
-        ✦ AI Portfolio Assistant
-      </motion.div>
-
+  
       {/* Headline */}
       <motion.h1
         initial={{ opacity:0, y:-10 }}
@@ -149,9 +139,20 @@ const Hero = () => {
         className="flex flex-wrap justify-center gap-2 mb-4"
       >
         {NAV_SECTIONS.map(s => (
-          <a
+          <button
             key={s.id}
-            href={`#${s.id}`}
+            onClick={() => {
+              const element = document.getElementById(s.id);
+              if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+              } else {
+                window.location.hash = '#/';
+                setTimeout(() => {
+                  const el = document.getElementById(s.id);
+                  if (el) el.scrollIntoView({ behavior: 'smooth' });
+                }, 500);
+              }
+            }}
             className="px-4 py-2 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105 active:scale-95"
             style={{
               background:'rgba(145,94,255,0.12)',
@@ -160,7 +161,7 @@ const Hero = () => {
             }}
           >
             {s.icon} {s.label}
-          </a>
+          </button>
         ))}
       </motion.div>
 
@@ -203,10 +204,9 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Messages */}
         <div
           className="flex-1 overflow-y-auto px-6 py-5 flex flex-col gap-3"
-          style={{ minHeight:160, maxHeight:'28vh' }}
+          style={{ minHeight:120, maxHeight:'22vh' }}
         >
           <AnimatePresence initial={false}>
             {messages.map(msg => (
@@ -285,7 +285,7 @@ const Hero = () => {
               border:'1px solid rgba(145,94,255,0.2)',
               borderRadius:14,
               padding:'10px 14px',
-              maxHeight:120
+              maxHeight:80
             }}
           />
           <button

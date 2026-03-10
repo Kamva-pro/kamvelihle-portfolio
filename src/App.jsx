@@ -1,8 +1,8 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import React, { Suspense } from 'react';
 import { About, Contact, Hero, Navbar, Works, StarsCanvas } from './components';
 import ProjectDetails from './components/ProjectDetails';
-import CanvasLoader from './components/Loader';
+import PageLoader from './components/PageLoader';
 
 const HomeLayout = () => (
   <div className="relative z-0 bg-primary">
@@ -21,14 +21,14 @@ const HomeLayout = () => (
 
 const App = () => {
   return (
-    <BrowserRouter basename="/kamvelihle-portfolio/">
-      <Suspense fallback={<CanvasLoader />}>
+    <HashRouter>
+      <Suspense fallback={<PageLoader />}>
         <Routes>
           <Route path="/" element={<HomeLayout />} />
           <Route path="/project/:id" element={<ProjectDetails />} />
         </Routes>
       </Suspense>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
