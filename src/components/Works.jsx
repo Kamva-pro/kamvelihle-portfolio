@@ -1,20 +1,20 @@
 import React from 'react'
 import Tilt from 'react-tilt';
-import {motion} from 'framer-motion';
-import {styles} from '../styles';
-import {github} from '../assets';
-import {SectionWrapper} from '../hoc';
-import {projects} from '../constants';
-import {fadeIn, textVariant} from '../utils/motion';
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
+import { github } from '../assets';
+import { SectionWrapper } from '../hoc';
+import { projects } from '../constants';
+import { fadeIn, textVariant } from '../utils/motion';
 import { useNavigate } from 'react-router-dom';
 
 const CATEGORY_COLOR = {
   "Full-Stack": "#915eff",
-  "Web":        "#3b82f6",
-  "Mobile":     "#10b981",
+  "Web": "#3b82f6",
+  "Mobile": "#10b981",
 };
 
-const ProjectCard = ({index, id, name, description, tags, image, link, category, year}) => {
+const ProjectCard = ({ index, id, name, description, tags, image, link, category, year }) => {
   const navigate = useNavigate();
 
   return (
@@ -101,8 +101,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far.</p>
-        <h2 className={styles.sectionHeadText}>My Projects.</h2>
+        <p className={styles.sectionSubText}>Work I'm proud of.</p>
+        <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -110,7 +110,7 @@ const Works = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          The following projects highlight my skills and experience across the full stack. Click any card to learn more.
+          These projects show how I think and what I build. Each one started as a problem — I turned it into something that works. Click any card to see the full story.
         </motion.p>
       </div>
 
@@ -120,10 +120,9 @@ const Works = () => {
         className="mt-6 flex flex-wrap gap-4"
       >
         {[
-          { icon: '🚀', text: '6 Projects Shipped' },
           { icon: '📱', text: 'Web & Mobile' },
           { icon: '🇿🇦', text: 'Based in JHB' },
-          { icon: '💼', text: 'Open to Work' },
+          { icon: '💼', text: 'Available to Collaborate' },
         ].map(t => (
           <span key={t.text} className="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full" style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: '#94a3b8' }}>
             {t.icon} {t.text}

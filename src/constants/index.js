@@ -112,7 +112,7 @@ const projects = [
     tags: [{ name: "react #bootstrap", color: "blue-text-gradient" }],
     image: tripsmobile,
     link: "http://Kamva-pro.github.io/Trip-tips",
-    year: "2023",
+    year: "2025",
     category: "Web",
   },
   {
@@ -124,7 +124,7 @@ const projects = [
     techStack: ["React", "Express.js", "Axios", "Supabase", "Firebase"],
     tags: [{ name: "react #express.js #axios #supabase #firebase", color: "blue-text-gradient" }],
     image: matebets,
-    link: "https://github.com/Kamva-pro/mate-bets",
+    link: "https://mate-bets-qif33hn3nq-bq.a.run.app/",
     year: "2024",
     category: "Full-Stack",
   },

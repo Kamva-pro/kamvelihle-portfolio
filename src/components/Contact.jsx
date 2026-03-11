@@ -21,10 +21,10 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.sendForm(
-      'service_ji1qxrg', 
+      'service_ji1qxrg',
       'template_vz8e5uq',
       formRef.current,
-      'zEUqudfhVW4qWHlh0' 
+      'zEUqudfhVW4qWHlh0'
     ).then((result) => {
       console.log(result.text);
       setLoading(false);
@@ -40,8 +40,8 @@ const Contact = () => {
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact</h3>
+        <p className={styles.sectionSubText}>Let's build something together</p>
+        <h3 className={styles.sectionHeadText}>Work With Me.</h3>
 
         <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>
           <label className="flex flex-col">
@@ -78,7 +78,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               required
-              placeholder="What would you like to say?"
+              placeholder="Tell me about your project or idea"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
