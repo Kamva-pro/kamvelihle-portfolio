@@ -1,4 +1,4 @@
-import{r as Ne,h as kg}from"./index-4fb557e2.js";/**
+import{r as Ne,h as kg}from"./index-e05bd9bd.js";/**
  * @license
  * Copyright 2010-2023 Three.js Authors
  * SPDX-License-Identifier: MIT

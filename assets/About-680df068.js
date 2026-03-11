@@ -1,4 +1,4 @@
-import{j as s,F as l,m as n,b as e,d as c}from"./index-4fb557e2.js";import{_ as d}from"./tilt-0ff3721f.js";import{s as r}from"./styles-bea25d13.js";import{S as m,t as p,f as o}from"./SectionWrapper-afe33eb4.js";const x=({index:a,title:t,icon:i})=>e(d,{className:"xs:w-[250px] w-full",children:e(n.div,{variants:o("right","spring",.5*a,.75),className:`w-full green-pink-gradient 
+import{j as s,F as l,m as n,b as e,d as c}from"./index-e05bd9bd.js";import{_ as d}from"./tilt-3ef23b7a.js";import{s as r}from"./styles-bea25d13.js";import{S as m,t as p,f as o}from"./SectionWrapper-2dffaab7.js";const x=({index:a,title:t,icon:i})=>e(d,{className:"xs:w-[250px] w-full",children:e(n.div,{variants:o("right","spring",.5*a,.75),className:`w-full green-pink-gradient 
       p-[1px] rounded-[20px] shadow-card`,children:s("div",{options:{max:45,scale:1,speed:450},className:`bg-tertiary rounded-[20px] 
         py-5 px-12 min-h-[280px] flex
         justify-evenly items-center flex-col`,children:[e("img",{src:i,alt:t,className:"w-16 h-16 object-contain"}),e("h3",{className:`text-white text-[20px] 
