@@ -163,7 +163,7 @@ const projects = [
     techStack: ["React", "Node.js", "Express", "MongoDB"],
     tags: [{ name: "react #nodejs #mongodb #express", color: "blue-text-gradient" }],
     image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    link: "https://educonnect-frontend-586219284019.africa-south1.run.app",
+    link: "https://educonnect.africa",
     year: "2026",
     category: "Full-Stack",
   },
