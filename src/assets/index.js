@@ -28,7 +28,7 @@ import iphones from './iphones.png';
 import phones from './phones.png';
 import quick from './quick-connect.png';
 import pmgraves from './pmgrave.png';
-import mgijima from './mgijima.png';
+import cas from './cas.png';
 
 import flutter from './tech/flutter.png';
 import bootstrap from './tech/bootstrap.png';
@@ -92,7 +92,7 @@ export {
   phones,
   quick,
   pmgraves,
-  mgijima,
+  cas,
   ipart,
   matebets,
   kasi_1,
