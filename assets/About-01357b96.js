@@ -1,6 +1,0 @@
-import{j as t,F as o,m as n,b as e,d}from"./index-5449a6e5.js";import{_ as c}from"./tilt-d605bc73.js";import{s as r}from"./styles-bea25d13.js";import{S as m,t as p,f as i}from"./SectionWrapper-7e802b36.js";const x=({index:a,title:s,icon:l})=>e(c,{className:"xs:w-[250px] w-full",children:e(n.div,{variants:i("right","spring",.5*a,.75),className:`w-full green-pink-gradient 
-      p-[1px] rounded-[20px] shadow-card`,children:t("div",{options:{max:45,scale:1,speed:450},className:`bg-tertiary rounded-[20px] 
-        py-5 px-12 min-h-[280px] flex
-        justify-evenly items-center flex-col`,children:[e("img",{src:l,alt:s,className:"w-16 h-16 object-contain"}),e("h3",{className:`text-white text-[20px] 
-          font-bold text-center`,children:s})]})})}),f=()=>t(o,{children:[t(n.div,{variants:p(),children:[e("p",{className:r.sectionSubText,children:"Introduction "}),e("h2",{className:r.sectionHeadText,children:"Overview"})]}),e(n.p,{variants:i("","",.1,1),className:`mt-4 text-secondary text-[17px]
-      max-w-3xl leading-[30px]`,children:"I'm a full-stack developer based in Johannesburg who partners with founders, brands, and teams to bring ideas to life — from sleek frontends to solid backends and mobile apps."}),e("div",{className:"mt-20 flex flex-wrap gap-10",children:d.map((a,s)=>e(x,{index:s,...a},a.title))})]}),g=m(f,"about");export{g as default};
