@@ -52,7 +52,14 @@ import kasi_3 from './kasi-3.jpg';
 import cv from './kamvelihle_fatman_cv.pdf';
 import linkedin from './linkedin.png';
 
+import casgroup from './casgroup.png';
+import piano from './piano.jpg';
+import vivaro from './vivaro.jpg';
+
 export {
+  casgroup,
+  piano,
+  vivaro,
   linkedin,
   icepop,
   logo,
